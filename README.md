@@ -60,6 +60,14 @@ Checkout `engines.py` for the list of available engines and the parameters they 
     engines.NumberEngine(4))
 >>> generator.generate()
 "bellview-5269"
+
+
+>>> generator = build_generator(
+    engines.AdjectiveWordEngine(),
+    engines.CityWordEngine(country='United States'),
+    engines.NumberEngine(4))
+>>> generator.generate()
+"electric-knoxville-6594"
 ```
 
 ### Why `sargon`?
