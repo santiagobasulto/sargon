@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "sargon"
+version = "0.1.0"
+description = "A random generator of codes, names and other words"
+authors = ["Santiago Basulto <santiago.basulto@gmail.com>"]
+exclude = ["data/"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
