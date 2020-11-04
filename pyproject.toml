@@ -1,9 +1,15 @@
 [tool.poetry]
 name = "sargon"
-version = "0.1.0"
+version = "0.0.1"
 description = "A random generator of codes, names and other words"
 authors = ["Santiago Basulto <santiago.basulto@gmail.com>"]
 exclude = ["data/"]
+readme = "README.md"
+license = "MIT"
+
+homepage = "https://github.com/santiagobasulto/sargon"
+repository = "https://github.com/santiagobasulto/sargon"
+documentation = "https://github.com/santiagobasulto/sargon"
 
 [tool.poetry.dependencies]
 python = "^3.8"
